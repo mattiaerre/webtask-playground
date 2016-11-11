@@ -42,7 +42,7 @@ const arabic2roman = (arabic) => {
   collection.forEach((element) => {
     roman += lookup[element];
   });
-  return roman;
+  return 'CIAO!';
 };
 
 module.exports = (context, cb) => {
